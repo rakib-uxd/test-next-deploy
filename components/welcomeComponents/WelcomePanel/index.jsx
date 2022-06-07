@@ -5,13 +5,13 @@ import Tabs from "@mui/material/Tabs";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import ETTMSText from "/public/locals";
-import Login from "../LoginPanel";
-import Registration from "../RegistrationPanel";
 import LoginFooter from "../LoginFooter";
 import LoginHeader from "../LoginHeader";
-import RegistrationLottie from "../Registration-lottie";
+import Login from "../LoginPanel";
+import RegistrationLottie from "../registration-lottie";
+import Registration from "../RegistrationPanel";
 import styles from "./welcomePanel.module.css";
+import ETTMSText from "/public/locals";
 
 export default function WelcomePanel() {
   const router = useRouter();
