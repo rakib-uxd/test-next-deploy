@@ -1,7 +1,14 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/api/hello": "pages/api/hello.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/home": "pages/home.js"
+  "/en/500": "pages/en/500.html",
+  "/jp/500": "pages/jp/500.html",
+  "/en/404": "pages/en/404.html",
+  "/jp/404": "pages/jp/404.html",
+  "/en/home": "pages/en/home.html",
+  "/jp/home": "pages/jp/home.html",
+  "/en": "pages/en.html",
+  "/jp": "pages/jp.html"
 }
