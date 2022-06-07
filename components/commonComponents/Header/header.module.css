@@ -1,0 +1,18 @@
+.header {
+  background-color: white;
+  /* margin-top: 10px; */
+  height: 3rem;
+  -webkit-box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+.header > h4 {
+  color: #334d6e;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+}

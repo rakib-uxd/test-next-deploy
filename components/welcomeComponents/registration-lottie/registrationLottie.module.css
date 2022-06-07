@@ -1,0 +1,8 @@
+.lottie-container {
+  width: 90%;
+  margin-top: 3rem;
+}
+
+.lottie-container > svg:nth-child(2) {
+  display: none;
+}

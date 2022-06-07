@@ -1,0 +1,15 @@
+.home-wrapper {
+  height: 90%;
+  width: calc(100% - 1rem);
+  background-color: #ffffff;
+  margin: 1rem;
+  overflow: hidden;
+  -webkit-box-shadow: -2px -2px 5px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: -2px -2px 5px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: -2px -2px 5px 0px rgba(0, 0, 0, 0.15);
+}
+.home-wrapper > h1 {
+  display: grid;
+  place-items: center;
+  /* height: 100%; */
+}
